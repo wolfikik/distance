@@ -17,5 +17,5 @@ def init():
         for j in range(i+1, len(ar)):
             ardistance.append(dist(ar[i], ar[j]))
     ardistance.sort()
-    print('Наименьшее расстояние: '+str(int(ardistance[0])))
+    print('Наименьшее расстояние: '+str(ardistance[0]))
 init()
